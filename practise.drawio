@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T14:11:35.334Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="5jDGObwbwkb2MbneRiTg" version="24.4.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-05-28T14:16:55.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="yJJFRHitreEgL-sUR5sZ" version="24.4.8" type="github" pages="4">
   <diagram name="Page-1" id="nbIzrcEQRw5qBqkbvedD">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -342,6 +342,9 @@
         </mxCell>
         <mxCell id="Dctm0CIHvcLCQwm4RRgl-22" value="job_id&lt;div&gt;job_status&lt;/div&gt;&lt;div&gt;execution_time&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="480" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dctm0CIHvcLCQwm4RRgl-24" value="zookeeper for&lt;div&gt;job executor maybe&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="540" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
