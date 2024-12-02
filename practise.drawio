@@ -707,8 +707,14 @@
         <mxCell id="bL1mSKodC2PRXQjk0BP1-1" value="roughly 100,000 secs per day" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="388" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bL1mSKodC2PRXQjk0BP1-2" value="APIs:&lt;div&gt;&amp;lt;domain&amp;gt;/v1&lt;/div&gt;&lt;div&gt;POST {&quot;sender_id&quot;: &quot;aaa_00124&quot;,&lt;/div&gt;&lt;div&gt;&quot;recipient_id&quot;: &quot;bbb_00142&quot;,&lt;/div&gt;&lt;div&gt;&quot;text&quot;: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;send_time&quot;: 1274194}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="93" width="200" height="100" as="geometry" />
+        <mxCell id="bL1mSKodC2PRXQjk0BP1-2" value="APIs:&lt;div&gt;1.send a message&lt;br&gt;&lt;div&gt;&amp;lt;domain&amp;gt;/message/v1&lt;/div&gt;&lt;div&gt;POST {&quot;sender_id&quot;: &quot;aaa_00124&quot;,&lt;/div&gt;&lt;div&gt;&quot;recipient_id&quot;: &quot;bbb_00142&quot;,&lt;/div&gt;&lt;div&gt;&quot;text&quot;: &quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;send_time&quot;: 1274194}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;200 ok, 40x error&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;also header of the message will have auth&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;2.check messages&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.receive message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4.mark read&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="8" width="250" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lb5hTdtXDNfUzy-s8Y5q-1" value="rel db:&lt;div&gt;easy to map object and object rellations&lt;/div&gt;&lt;div&gt;draw back: diff to scale&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="113" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lb5hTdtXDNfUzy-s8Y5q-2" value="why dynamodb not cassandra&lt;div&gt;engineering time perscpective. cloud hosted solution&lt;/div&gt;&lt;div&gt;might turn out self host better in the cost perspective&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="631" y="173" width="300" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
