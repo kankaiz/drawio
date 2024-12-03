@@ -701,7 +701,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DIcArjPcnKdWVNC-IRes-1" value="FR:&lt;div&gt;group chat?&lt;/div&gt;&lt;div&gt;text message only?&lt;br&gt;&lt;div&gt;save message?&lt;/div&gt;&lt;div&gt;notification?&lt;/div&gt;&lt;div&gt;multi-device??&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NFR:&lt;/div&gt;&lt;div&gt;scale? how big is the sys&lt;/div&gt;&lt;div&gt;how many messages/users we want to handle?&lt;/div&gt;&lt;div&gt;availability&lt;/div&gt;&lt;div&gt;latency 100ms? P95&lt;/div&gt;&lt;div&gt;monitoring&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;delivery message eventual consistency&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="DIcArjPcnKdWVNC-IRes-1" value="FR:&lt;div&gt;group chat?&lt;/div&gt;&lt;div&gt;text message only?&lt;br&gt;&lt;div&gt;store message?&lt;/div&gt;&lt;div&gt;notification?&lt;/div&gt;&lt;div&gt;multi-device??&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NFR:&lt;/div&gt;&lt;div&gt;scale? how big is the sys&lt;/div&gt;&lt;div&gt;how many messages/users we want to handle?&lt;/div&gt;&lt;div&gt;availability&lt;/div&gt;&lt;div&gt;latency 100ms? P95&lt;/div&gt;&lt;div&gt;monitoring&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;delivery message eventual consistency&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="50" y="120" width="280" height="230" as="geometry" />
         </mxCell>
         <mxCell id="bL1mSKodC2PRXQjk0BP1-1" value="roughly 100,000 secs per day" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -715,6 +715,9 @@
         </mxCell>
         <mxCell id="lb5hTdtXDNfUzy-s8Y5q-2" value="why dynamodb not cassandra&lt;div&gt;engineering time perscpective. cloud hosted solution&lt;/div&gt;&lt;div&gt;might turn out self host better in the cost perspective&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="631" y="173" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2EbER1brcaH-cpwWj0Bz-1" value="&lt;div&gt;connection protocal&lt;/div&gt;probably websockets&lt;div&gt;bi-directional communication&lt;/div&gt;&lt;div&gt;Persistent connection ensures low latency for real-time communication.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="468" width="400" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
