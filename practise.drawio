@@ -719,6 +719,18 @@
         <mxCell id="2EbER1brcaH-cpwWj0Bz-1" value="&lt;div&gt;connection protocal&lt;/div&gt;probably websockets&lt;div&gt;bi-directional communication&lt;/div&gt;&lt;div&gt;Persistent connection ensures low latency for real-time communication.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="468" width="400" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="2EbER1brcaH-cpwWj0Bz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2EbER1brcaH-cpwWj0Bz-2" target="2EbER1brcaH-cpwWj0Bz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2EbER1brcaH-cpwWj0Bz-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="660" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EbER1brcaH-cpwWj0Bz-3" value="messaging service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EbER1brcaH-cpwWj0Bz-5" value="messaging service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
