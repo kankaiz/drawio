@@ -744,7 +744,7 @@
           <mxGeometry x="250" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2EbER1brcaH-cpwWj0Bz-12" value="MQ" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="460" y="820" width="120" height="30" as="geometry" />
+          <mxGeometry x="460" y="870" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2EbER1brcaH-cpwWj0Bz-13" value="message_id:&lt;div&gt;sender_id:&lt;/div&gt;&lt;div&gt;receiver_id:&lt;/div&gt;&lt;div&gt;content:&lt;/div&gt;&lt;div&gt;timestamp:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="565" y="568" width="90" height="110" as="geometry" />
@@ -780,6 +780,9 @@
           <mxGeometry x="0.3059" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2EbER1brcaH-cpwWj0Bz-22" value="trigger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="740" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
