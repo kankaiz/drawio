@@ -725,8 +725,8 @@
         <mxCell id="2EbER1brcaH-cpwWj0Bz-3" value="messaging service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2EbER1brcaH-cpwWj0Bz-5" value="messaging service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="860" width="120" height="60" as="geometry" />
+        <mxCell id="2EbER1brcaH-cpwWj0Bz-5" value="messaging service&lt;div&gt;(recevier part)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2EbER1brcaH-cpwWj0Bz-7" value="message data store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="490" y="640" width="60" height="80" as="geometry" />
@@ -740,8 +740,11 @@
         <mxCell id="2EbER1brcaH-cpwWj0Bz-10" value="messaging service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2EbER1brcaH-cpwWj0Bz-11" value="messaging service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2EbER1brcaH-cpwWj0Bz-11" value="messaging service&lt;div&gt;(sender part)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2EbER1brcaH-cpwWj0Bz-12" value="MQ" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="460" y="840" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
