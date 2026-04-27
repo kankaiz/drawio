@@ -1,9 +1,100 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="oQm_oiCz6ZuXXqOlzZ6m">
-    <mxGraphModel>
+    <mxGraphModel dx="1803" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9LUHf1MMTFCMzo2r07V--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;i&gt;&amp;nbsp;a SQL Server database (eg: Azure SQL),&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;i&gt;a blob storage archive of uploaded documents (eg: Azure Blob),&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;i&gt;a search index (eg: Azure AI Search),&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;i&gt;an ML model trained on historical user data, and&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;i&gt;a third-party email marketing platform integrated via API&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="390" x="60" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;span id=&quot;message-body-1777324277280&quot; class=&quot;fui-ChatMyMessage__body rxadtj ___18yvlyd f10pi13n ftqa4ok f2hkw1w f8hki3x f1d2448m f1bjia2o ffh67wi f1j6vpng f1pniga2 f987i1v f1ffjurs f15bsgw9 f14e48fq f18yb2kv fd6o370 ffwy5si f3znvyf f57olzd f4stah7 f480a47 fs1por5 fk6fouc figsok6 fkhj508 f18vmvna f9ijwd5 fnxop1z f10ostut f1o0qvyv f9ggezi f1xp5gbu f150uoa4 fd9xhir f1jlaasf fypbzun f1tseldd f1dsdmen fxowb0n f11ghf3q f13aoclr flypziy f7tdagd fquw1qa fftr39l f13lathq f15hsm81 f2ss68y ffb60jq f8nuap2 f13nk4fk f7jacry fq08z5q fd9af6s fr74w9q fcl9uv6 f13sm7pj f1u6qqly f16wpxbl faim3u9 f6cs3qo fa2w2z3 fd39nx6 f10gn8j9 frcqmxy f1w9ws4k f1ddxkqj fd10euv fvuz61 f1nbc6gw f1fzh09n fowj8sr fiw5bac f8tr6d2 f4lxswj fg03xrh fjbzx94 f65ro8h f1x8c5ex f16hi0i0 f1v0k454 f1n83ozr f14n1vea fqelvoi f1ta00mw fpjhahb f16j7wzv f17x56ky&quot;&gt;&lt;span dir=&quot;auto&quot; id=&quot;content-1777324277280&quot; aria-label=&quot;within 72 hours&quot; class=&quot;fui-Primitive ___11tzqds f1oy3dpc f89hs3r fqtknz5 fyvcxda&quot;&gt;&lt;p&gt;&lt;i&gt;within 72 hours&lt;/i&gt;&lt;/p&gt;&lt;span class=&quot;fui-Flex ___1dbdz4x f22iagw fni485r fd7ph1c f1q8lukm&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;i style=&quot;height: 1px; width: 1px; opacity: 0.001;&quot;&gt;&lt;/i&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="90" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="sql" vertex="1">
+          <mxGeometry height="80" width="60" x="320" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;acc_id/&lt;/div&gt;blob&lt;div&gt;blob_id&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--14" edge="1" parent="1" source="9LUHf1MMTFCMzo2r07V--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9LUHf1MMTFCMzo2r07V--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="index&lt;div&gt;acc_id&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="unique account_id" vertex="1">
+          <mxGeometry height="70" width="110" x="80" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ML model&lt;div&gt;1.common user pattern can be retained&lt;/div&gt;&lt;div&gt;2.for user data need to delete&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="590" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="3rd party email platform&lt;div&gt;user id and user email no longer sub&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="210" x="330" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--11" edge="1" parent="1" source="9LUHf1MMTFCMzo2r07V--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9LUHf1MMTFCMzo2r07V--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--12" connectable="0" parent="9LUHf1MMTFCMzo2r07V--11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="fk" vertex="1">
+          <mxGeometry relative="1" x="-0.1286" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--13" edge="1" parent="1" source="9LUHf1MMTFCMzo2r07V--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9LUHf1MMTFCMzo2r07V--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="tables&lt;div&gt;acc_id table&lt;br&gt;&lt;div&gt;multiple account_id ref tables&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="520" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3rd email call api remove the use from sys&lt;div&gt;ml model: train ML model to delete user sensitive data&lt;/div&gt;&lt;div&gt;search index remove acc_id related index&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;in the SQL DB, mark mark the table ref to blob as deleted&lt;/div&gt;&lt;div&gt;delete the content in blob store&lt;/div&gt;&lt;div&gt;delete the&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="360" x="-100" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="call email platform to push&amp;nbsp;&lt;div&gt;a dedicated notification&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="220" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--18" parent="1" style="whiteSpace=wrap;html=1;" value="handle multiple deletion&lt;div&gt;error handling&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="330" x="-110" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="deleteion service" vertex="1">
+          <mxGeometry height="50" width="120" x="310" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--21" edge="1" parent="1" source="9LUHf1MMTFCMzo2r07V--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9LUHf1MMTFCMzo2r07V--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--22" connectable="0" parent="9LUHf1MMTFCMzo2r07V--21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="delete" vertex="1">
+          <mxGeometry relative="1" x="0.1083" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="355" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--29" edge="1" parent="1" source="9LUHf1MMTFCMzo2r07V--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9LUHf1MMTFCMzo2r07V--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--23" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="task queue&lt;div&gt;acc_id/&lt;/div&gt;&lt;div&gt;task&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="90" x="324" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="worker&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="worker&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="worker&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="375" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--27" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="failure&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="60" x="470" y="1415" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--28" edge="1" parent="1" source="9LUHf1MMTFCMzo2r07V--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="9LUHf1MMTFCMzo2r07V--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="acc_id task_type failed deleted" vertex="1">
+          <mxGeometry height="75" width="190" x="15" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="9LUHf1MMTFCMzo2r07V--31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="acc_id task fail_msg status&lt;div&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="-10" y="1470" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
